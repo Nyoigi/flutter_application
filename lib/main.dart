@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/meditate_song_of_moon.dart';
 import 'package:flutter_application_3/welcome.dart';
+
+import 'meditate_mind.dart';
 
 void main() {
   runApp(const App());
@@ -14,6 +15,6 @@ class App extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter',
-        home: PageView(children: const [WelcomeMeditate(), Meditate_Moon()]));
+        home: PageView(children: const [WelcomeMeditate(), MeditateMind()]));
   }
 }
